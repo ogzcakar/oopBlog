@@ -1,0 +1,309 @@
+/* S�f�rlama Alan� */
+:focus{outline:0}
+h1,h2,h3,h4,h5,h6,b,i,u,form,ul,li,img,body,input,button{padding:0px; margin:0px; border:none; background-color:transparent}
+ul,li{list-style-type:none}
+a{text-decoration:none; color: #848484}
+.t{clear:both}
+body{font: 12px/21px Tahoma; background: url(../images/site/bg.png);color:#848484}
+textarea{resize:none}
+/* Di�er D�zenlemeler */
+::selection{background: transparent}
+::-moz-selection{background: transparent}
+::-webkit-selection{background: transparent}
+.Makale p::selection{background:#e17024;color:#fff}
+.Makale p::-moz-selection{background:#e17024;color:#fff}
+.Makale p::-webkit-selection{background:#e17024;color:#fff}
+/* Bilgilendirme Alan� */
+#Bilgilendir{background-color:#da4010; padding:10px;color:#e8dfdc;text-align:center;font-size:14px}
+/* Header */
+#header{background: url(../images/site/header_bg.png) repeat-x; height:150px}
+.header{width:900px; margin:0px auto}
+/* Logo */
+.logo{float:left; margin-right:43px;margin-left:-20px;margin-right:100px;margin-top:3em;}
+/* Men� Alan� */
+#menu ul{margin-right:10px}
+#menu ul li a{float: right;margin-top:60px;font-size:16px; color: #d27b60;margin-left:30px}
+#menu a:hover, #menu a.aktidf{color:#e9e7e7;border-bottom:1px solid #e9e7e7;padding-bottom:3px}
+/* Profil Alan� */
+#profil{z-index:3;position:relative;background: url(../images/site/profil.png) no-repeat right; height:67px}
+#profil_img{float: right; border: 2px solid #e9e7e7; width: 50px; height:50px; margin-right:12px; margin-top:2px}
+#profil span{float: right; font: 10px tahoma; color:#fff; margin-right:25px; margin-top:9px;cursor:pointer}
+.profil{background-color:black;width:130px;float:right;margin-right:30px;-moz-border-radius: 3px;-webkit-border-radius: 3px;border-radius: 3px;-moz-box-shadow: 0px 0px 5px #000;-webkit-box-shadow: 0px 0px 5px #000;box-shadow: 0px 0px 5px #000;margin-top:-3px;display:none}
+.profil ul li{padding:5px; border-bottom: 1px solid #333; cursor:pointer; font-size:11px;text-align:center}
+.profil ul li a{color:#848484}
+.profil ul li a:hover{color: #e9e7e7}
+/* Arama Alan� */
+.ara{background-color:black;height:33px;width:300px;float:left;-moz-border-radius:0px 0px 3px 3px;-webkit-border-radius:0px 0px 3px 3px;border-radius:0px 0px 3px 3px;margin-right:10px;-moz-box-shadow:0px 0px 5px #000;-webkit-box-shadow:0px 0px 5px #000;box-shadow:0px 0px 5px #000}
+.ara_input{padding:3px; color:#848484; margin-top:5px;margin-left:10px;width:240px}
+.kapla{background-color:black;height:33px;width:115px;float:right;-moz-border-radius:0px 0px 3px 3px;-webkit-border-radius:0px 0px 3px 3px;border-radius:0px 0px 3px 3px;margin-right:30px;-moz-box-shadow:0px 0px 5px #000;-webkit-box-shadow:0px 0px 5px #000;box-shadow:0px 0px 5px #000}
+.kapla2{background-color:black;height:33px;width:340px;margin-left:-20px;float:right;-moz-border-radius:0px 0px 3px 3px;-webkit-border-radius:0px 0px 3px 3px;border-radius:0px 0px 3px 3px;-moz-box-shadow:0px 0px 5px #000;-webkit-box-shadow:0px 0px 5px #000;box-shadow:0px 0px 5px #000}
+.kapla2 input {padding:5px;margin-left:5px;width:110px;color:#848484;border:1px solid #101010;-moz-border-radius:0px 0px 3px 3px;-webkit-border-radius:0px 0px 3px 3px;border-radius:0px 0px 3px 3px;}
+.kapla2 button{cursor:pointer; float:right; margin-top:6px;margin-right:12px;font-weight:bold;color:#a86652}
+.kapla3{background-color:black;height:33px;width:115px;float:right;-moz-border-radius:0px 0px 3px 3px;-webkit-border-radius:0px 0px 3px 3px;border-radius:0px 0px 3px 3px;margin-right:10px;-moz-box-shadow:0px 0px 5px #000;-webkit-box-shadow:0px 0px 5px #000;box-shadow:0px 0px 5px #000}
+.kapla a,.kapla3 a{color:#848484;font-weight:bold;margin-left:12px;margin-top:5px;float:left;font-size:11px}
+.kapla a:hover,.kapla3 a:hover{color:#eee}#genel{width:900px;margin:70px auto}
+/* Genel Alan */
+#Genel{width:900px; margin:70px auto}
+/* Slider */
+#Slider{
+	height:170px;
+	border: 1px solid #bdbcbd;
+	background: rgb(255,255,255); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(238,238,238,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(238,238,238,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(238,238,238,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(238,238,238,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(238,238,238,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(238,238,238,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#eeeeee',GradientType=0 ); /* IE6-9 */
+}
+.Slider{float:left; padding: 10px; text-align:justify;margin-top:10px;margin-left:5px;position:relative}
+.Slider_Sol{width:420px;float:left;z-index:2;position:absolute}
+.Slider_Sol ul li img, .Slider_Sag ul li img{border: 5px solid #fff;-moz-box-shadow: 0px 0px 5px #000;-webkit-box-shadow: 0px 0px 5px #00;box-shadow: 0px 0px 5px #000;float:left}
+.Slider_Sol ul li h2,.Slider_Sag ul li h2{font: 14px tahoma;padding-left:145px}
+.Slider_Sol ul li h2 a,.Slider_Sag ul li h2 a{color:#d5795b}
+.Slider_Sol ul li p , .Slider_Sag ul li p {margin-left:145px; color: #848484;line-height:18px;height:88px;overflow:hidden}
+.Slider_Sag{width:420px;float:right;z-index:2;position:absolute;left:450px}
+/* Sol Alan */
+#Sol{width:600px; float:left; margin-top:10px}
+/* Makaleler */
+.Makale{
+	margin-bottom:10px;
+	padding:10px;
+	height:175px;
+	border: 1px solid #bdbcbd;
+	background: rgb(255,255,255); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(238,238,238,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(238,238,238,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(238,238,238,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(238,238,238,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(238,238,238,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(238,238,238,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#eeeeee',GradientType=0 ); /* IE6-9 */
+}
+.Makale h1{font-size:14px;border-bottom:1px solid #dd967f; padding: 0px 0px 5px 0px;margin-bottom:8px; margin-top:3px}
+.Makale h1 a{color:#d9896f;}
+.Makale h1 a:hover{color:#d5795b}
+.Makale img{float:left;width:100px; height:100px;border: 5px solid #fff;-moz-box-shadow: 0px 0px 5px #000;-webkit-box-shadow: 0px 0px 5px #00;box-shadow: 0px 0px 5px #000;margin-left:1px;margin-top:1px;float:left}
+.Makale img:hover{opacity:0.8; cursor:pointer}
+.Makale p{float:left;color: #848484; padding-left:1px;text-align:justify;width:455px;margin-left:8px;margin-top:1px;height:100px;overflow:hidden}
+.EkBilgiler{
+	margin-bottom:10px;
+	overflow:hidden;
+	height:30px;
+	width:598px;
+	margin-top:-38px;
+	border: 1px solid #bdbcbd;
+	background: rgb(255,255,255); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(238,238,238,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(238,238,238,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(238,238,238,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(238,238,238,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(238,238,238,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(238,238,238,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#eeeeee',GradientType=0 ); /* IE6-9 */
+}
+
+.EkBilgiler ul li:hover{cursor:pointer;color:#d27b60}
+.EkBilgiler ul{margin-left:10px}
+.EkBilgiler ul li{float:left;padding: 7px 10px 5px 10px;font-weight:bold}
+.e_gonderen{height: 16px;background: url(../images/site/bilgiler.png) no-repeat left top;padding-left:20px}
+.e_kat{height: 16px;background: url(../images/site/bilgiler.png) no-repeat left -15px;padding-left:20px}
+.e_yor{height: 16px;background: url(../images/site/bilgiler.png) no-repeat left -31px;padding-left:20px}
+.e_tarih{height: 16px;background: url(../images/site/bilgiler.png) no-repeat left -46px;padding-left:20px}
+.Durumu{position:relative;float:right}
+.yaziyibegendi{background: url(../images/site/favori.png) no-repeat;width:16px;height:16px;position:absolute;right:50px;top:1px}
+
+.FDurumu{position:relative;float:right}
+.favorisi{background: url(../images/site/favori.png) no-repeat;width:16px;height:16px;position:absolute;right:55px;top:1px}
+/* Sayfalama */
+#sayfalama{margin-top:20px}
+#sayfalama li a{float: left; margin-right:5px; border: 1px solid #666;padding: 5px 7px; color: #333;opacity:0.5;-moz-border-radius: 2px;-webkit-border-radius: 2px;border-radius: 2px;filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#ffffff', endColorstr = '#eeeeee');-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr = '#ffffff', endColorstr = '#eeeeee')";background-image: -moz-linear-gradient(top, #fff, #eee);background-image: -ms-linear-gradient(top, #fff, #eee);background-image: -o-linear-gradient(top, #fff, #eee);background-image: -webkit-gradient(linear, center top, center bottom, from(#fff), to(#eee));background-image: -webkit-linear-gradient(top, #fff, #eee);background-image: linear-gradient(top, #fff, #eee)}
+#sayfalama li.aktif_sayfa a,#sayfalama li a:hover{border: 1px solid #444;color:#222;opacity:1}
+/* Ara Reklam */
+.Ara_Reklam{
+	margin-bottom:10px;
+	overflow:hidden;
+	height:60px;
+	width:578px;
+	padding:10px;
+	border: 1px solid #bdbcbd;
+	background: rgb(255,255,255); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(238,238,238,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(238,238,238,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(238,238,238,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(238,238,238,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(238,238,238,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(238,238,238,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#eeeeee',GradientType=0 ); /* IE6-9 */
+}
+.Ara_Reklamici{width:468px;height:60px;float:right;border:1px solid #ddd}
+.Ara_Reklam span{font-weight:bold;width:100px;float:left;height:50px;text-align:center;margin-top:10px;cursor:pointer}
+.Ara_Reklam span:hover{color:#d27b60}
+/* Hakk�mda Alan� */
+#hakkimda,#iletisim,#h_404,#profilalani,#makale-oku,.yorumyap,.yorumlistele{
+	margin-bottom:10px;
+	padding:10px;
+	border: 1px solid #bdbcbd;
+	background: rgb(255,255,255); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(238,238,238,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(238,238,238,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(238,238,238,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(238,238,238,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(238,238,238,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(238,238,238,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#eeeeee',GradientType=0 ); /* IE6-9 */
+}
+#alanim{float:left;width:557px}
+#alanim span{float: left; width:557px; background-color:#4773a9; padding:10px; cursor:pointer;color: #fff;margin: 3px 0 0 0}
+#alanim div{float:left; width:557px; background-color:#eee;padding:10px}
+.sol_ac {float: left;width: 130px;text-align: right;padding: 0 5px;color: #4773a9;line-height:19px;font-weight:bold}
+#md{float: left;-moz-border-radius: 5px;-webkit-border-radius: 5px;border-radius: 5px;}
+.sag_ac {float: left;width: 215px;padding: 0 5px;text-align: right; color: #848484;line-height:19px}
+.sirala {float: left;width: 110px;padding: 3px 5px 0px 10px;text-align: center;margin:5px}
+.hgaleri li{float:left;margin:2px}
+.hgaleri img{width:107px;height:110px}
+#video_bas{float:left;margin-bottom:5px}
+/* Rastgele Veriler */
+.rastgele h3 a:hover{color:#d27b60}
+.rastgele img{float:left;width:75px; height:75px;border: 3px solid #fff;-moz-box-shadow: 0px 0px 5px #000;-webkit-box-shadow: 0px 0px 5px #00;box-shadow: 0px 0px 5px #000;margin-left:1px;margin-top:1px;float:left}
+.rastgele h3{float:left;width:178px;margin-left:7px;height:80px;font-size:12px;text-align:center}
+ul.SosyalMedyaPaylasim li{float:left}
+/* �leti�im Alan� */
+#iletisim h1,#profilalani h1,#makale-oku h1,.yorumyap h1,.rastgele h1{color: #d9896f; font-size:14px; border-bottom: 1px solid #dd967f; padding: 0px 0px 5px 0px;margin-bottom:10px; margin-top:5px}
+.ilet_sag{width:230px; line-height:20px; color: #848484; float:right; text-align:justify;margin-right:5px; margin-top:-10px}
+.ilet_sag li{margin-top:15px}
+.ilet_sol{width:320px;float:left; margin-left:10px;margin-top:-5px}
+.ilet_sol span{display:block;color: #848484; margin-bottom:10px; margin-top:10px;font: 14px verdana}
+.i_input{-moz-border-radius: 5px;-webkit-border-radius: 5px;border-radius: 5px;border:1px solid #c2c2c2; padding: 5px; background-color: #f5f5f5; width:300px;color: #8a8a8a}
+.i_mesaj{margin-left:10px; margin-bottom:10px; margin-top:15px}
+.i_mesaj span{display:block; color: #848484; margin-bottom:10px; margin-top:10px;font: 14px verdana}
+.i_textarea{border: 1px solid #c2c2c2; padding: 10px;-webkit-border-radius: 5px;border-radius: 5px;-moz-border-radius: 5px;background-color: #f5f5f5; width: 535px;height:200px; color: #8a8a8a; font: 12px tahoma; line-height: 18px}
+.i_mesaj input {background-color: #cd6240; padding: 5px; color: #fff;-moz-border-radius: 5px;-webkit-border-radius: 5px;border-radius: 5px;margin-top:10px; width: 557px; height:40px; cursor:pointer}
+/* 404 */
+#h_404 h1{text-align:center; color:#616161; font-size:60px;margin-top:30px}
+#h_404 h2{font: 16px tahoma; color: #616161; text-align: center; margin-top:40px; margin-bottom:10px}
+#h_404 h2 a{color: #616161; text-decoration:underline}
+#h_404 h3 {text-align:center;color: #d9896f; font-size:20px; border-bottom: 1px solid #dd967f; padding: 0px 0px 5px 0px;margin-bottom:10px; margin-top:35px}
+#h_404 ul li{padding:2px;font-weight:bold}
+#h_404 ul li a:hover{color:#d27b60}
+/* Profil Alan� */
+#profil{width:240px;float:right}
+.p_sag{width:200px; float:right;margin-top:80px}
+.p_sag img{margin-left:20px;-moz-border-radius: 5px;-webkit-border-radius: 5px;border-radius: 5px;-moz-box-shadow: 0px 0px 5px #000000;-webkit-box-shadow: 0px 0px 5px #000000;box-shadow: 0px 0px 5px #000000;}
+.p_sol{width:330px; float:left; margin-left:10px}
+.p_sol span{display: block; color: #848484; margin-top:10px; margin-bottom:5px}
+.p_sol input{-moz-border-radius: 5px;-webkit-border-radius: 5px;border-radius: 5px;border:1px solid #c2c2c2; padding: 5px; background-color: #f5f5f5; width:300px;color: #8a8a8a}
+/* Tab */
+#tabs ul {float: left;background-color:#ccc;width: 100%}
+#tabs li {margin-left: 18px}
+#tabs li,#tabs li a {float: left}
+#tabs ul li a {padding:8px;color:#848484;font-weight:bold}
+#tabs ul li.aktif {background-color:#e8e8e8}
+#tabs ul li.aktif a {color:#cd6240}
+#tabs div {background:#e8e8e8;float:left;padding: 10px 10px 20px 10px; width:558px}
+/* Tab ��erikleri */
+#tab-1 p,#tab-2 p{display:block;color:#848484}
+#tab-1 input,#tab-2 input{-moz-border-radius: 5px;-webkit-border-radius: 5px;border-radius: 5px;border:1px solid #c2c2c2; padding: 5px; background-color: #f5f5f5; width:300px;color: #8a8a8a}
+.tab_sol{width: 320px;float:left}
+.tab_sag{width:230px; float:left; color: #828282; line-height:20px; margin-top:10px}
+.tab_sag li{list-style-type: circle; text-align:justify; margin-bottom:10px}
+#tab-3 span,#tab-4 span{display:block;padding:5px;background-color:#ddd;margin-bottom:2px;font-size:10px}
+#tab-3 span:hover,#tab-4 span:hover{background-color:#eee;cursor:pointer}
+#tab-3 span img,#tab-4 span img{height:12px;width:12px;margin: 5px 5px -3px 5px}
+#tab-3 span strong,#tab-4 span strong{color:#d27b60;background-color:#eee;padding:2px}
+#tab-3 span em,#tab-4 span em{float:right}
+/* Ders �stek */
+.ilet_sol select{-moz-border-radius: 5px;-webkit-border-radius: 5px;border-radius: 5px;border:1px solid #c2c2c2; padding: 5px; background-color: #f5f5f5; width:310px;color: #8a8a8a}
+/* Makale */
+.myazi{color:#848484;text-align:justify;margin: 0px 5px 0px 5px;font-size:13px}
+.myazi a{color:#cd6240}
+/* Makale Yorumlari */
+.yorumyap_t{border: 1px solid #c2c2c2; padding: 10px;-webkit-border-radius: 5px;border-radius: 5px;-moz-border-radius: 5px;background-color: #f5f5f5; width: 552px;height:50px; color: #8a8a8a; font: 12px tahoma; line-height: 18px}
+.yorumyap input{background-color: #cd6240; padding: 5px; color: #fff;-moz-border-radius: 5px;-webkit-border-radius: 5px;border-radius: 5px;margin-top:10px; width: 574px; height:30px; cursor:pointer}
+.userimg img{display:block;float:left;width:36px;border:2px solid #ddd}
+.y_gonderen{margin-left:10px;font-size:17px;margin-left:50px}
+.y_gonderen h5{width:400px;float:left;color:#d19f8f; font-weight:bold}
+.y_gonderen h5 span{font-size:9px;color:#999;margin-left:3px}
+.yooorrum p{color:#848484;float:left;margin-left:10px;margin-top:-3px;width:525px;margin-bottom:-1px}
+.i_begen {display: block; float: right; width: 155px;margin-top:-25px}
+.i_begen .dislike{background: url(../images/site/like_btn.png) no-repeat 0px 0px ;display: block; float: right; width: 19px; height: 24px; margin-right: 5px; cursor: pointer}
+.i_begen .dislike_count{display: block; float: right; color: #FF8686; font: 11px Tahoma; margin: 5px 10px 0 0}
+.i_begen .like_count{display: block; float: right; color: #27A100; font: 11px Tahoma; margin: 5px 0 0 0}
+.i_begen .dislike:hover{background-position: 0px -24px}
+.i_begen .like{background: url(../images/site/like_btn.png) no-repeat 0px -48px ;display: block; float: right; width: 19px; height: 24px; margin-right: 5px; cursor: pointer}
+.i_begen .like:hover{background-position: 0px -72px}
+/* Videolu */
+#video_alani{background: #1A1A1A url(../images/site/bg-pattern-black.png); margin-top:70px; height:665px;margin-bottom:-65px}
+.video_alani{width:900px; margin:0 auto}
+.aasdd{position: absolute}
+.video_alani h1{color:#aaa;font-size:18px;font-weight:400;background:url(../images/site/icons.png) no-repeat left 23px;padding-left:24px;margin-bottom:20px;padding-top:20px;float:left}
+span.begen{background:url(../images/site/vbegen.png) no-repeat;height:24px;float:right;width:74px;margin-top:18px;cursor:pointer}
+span.begendin{background:url(../images/site/vbegenme.png) no-repeat;height:24px;float:right;width:91px;margin-top:18px}
+.ekleyen,.kkategori,.begeniler{float:left; margin-top:-10px;margin-bottom:15px}
+.ekleyen img,.kkategori img,.begeniler img{width:20px; height:20px;-moz-border-radius: 2px;-webkit-border-radius: 2px;border-radius: 2px;float:left}
+.ekleyen strong,.kkategori strong, .begeniler strong{color:#ccc;float:left;font-size:10px;margin-left:7px;margin-top:-2px}
+.kkategori img{width:15px; height:16px;-moz-border-radius: 2px;-webkit-border-radius: 2px;border-radius: 2px;float:left;margin-left:20px}
+.begeniler img{width:16px; height:13px;-moz-border-radius: 2px;-webkit-border-radius: 2px;border-radius: 2px;float:left;margin-left:20px;margin-top:3px}
+/* Sosyal Alan Makale */
+.SosyalAlan{height:40px;margin:-0px -5px}
+.SosyalAlan a{width:40px;height:40px;display:inline-block;opacity:0.3;float:right;margin-right:5px}
+.SosyalAlan a:hover{opacity:0.6}
+.SosyalAlan span{float:left;font:16px verdana;margin:11px}
+.googlePlus{background:url(../images/site/sosyalIcons.png) 0px 0px;width:40px;height:40px}
+.facebook{background:url(../images/site/sosyalIcons.png) -40px 0px;width:40px;height:40px}
+.twitter{background:url(../images/site/sosyalIcons.png) -80px 0px;width:40px;height:40px}
+.rss{background:url(../images/site/sosyalIcons.png) -120px 0px;width:40px;height:40px}
+.youtube{background:url(../images/site/sosyalIcons.png) -240px 0px;width:40px;height:40px}
+.skype{background:url(../images/site/sosyalIcons.png) -400px 0px;width:40px;height:40px}
+/* Sa� Alan */
+#Sag{width:290px; float:right; margin-top:10px}
+.Sag_Kapla{
+	padding: 10px;
+	margin-bottom:10px;
+	border: 1px solid #bdbcbd;
+	background: rgb(255,255,255); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(238,238,238,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(238,238,238,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(238,238,238,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(238,238,238,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(238,238,238,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(238,238,238,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#eeeeee',GradientType=0 ); /* IE6-9 */
+}
+/* Kategoriler */
+#Kategoriler{}
+#Kategoriler ul li a{display:block;float:left;width:116px;color:#804933;padding-left:18px;background:url(../images/site/ok.png) no-repeat 8px 8px}
+#Kategoriler ul li a:hover{text-decoration:underline}
+/* Son Yorumlar */
+.yorumlar{border-bottom: 1px solid #dd9882; margin-top:10px}
+.yorumlar img{width: 50px; height:50px;border: 2px solid #dd9882;float:left}
+.yorumlar span{color:#dd9882; font-weight:bold; margin-left:5px;font-size:14px;float:left;display:block}
+.yorumlar p{font-size:11px;text-align:justify; float:left;width:209px;height:33px;line-height:15px;margin-left:5px;margin-top:-1px;overflow:hidden}
+/* 125 Reklam Alan� */
+#rek125{margin-bottom:-5px;margin-top:-2px}
+#rek125 a img{border: 1px solid #c2c2c2; margin-left:3px; margin-top:2px;opacity:0.5}
+#rek125 a img:hover{opacity:0.8}
+/* Etiketler */
+.etiket {text-align:justify}
+.etiket a{color: #cd5028}
+.etiket a:hover{text-decoration:underline}
+a.tag_1{font-size:12px;color:#c08066}
+a.tag_2{font-size:13px;color:#923815}
+a.tag_3{font-size:14px;color:#b18979}
+a.tag_4{font-size:15px;color:#571f08}
+a.tag_5{font-size:16px;color:#8c4529}
+/* Footer */
+#footer{background: url(../images/site/footer.png); height: 50px;margin-top:30px}
+.footer{width:900px; margin:0 auto}
+.footer span{color:#c8c4c4;float:left;margin-top:25px}
+/* Yukar� ��k */
+#top{background: url(../images/site/yukari.png) no-repeat; width:26px; height:55px;bottom:34px;right:25px;position:fixed;cursor:pointer;display:none}
+/* Sosyal Medya */
+.sosyalmedya{margin-top:3px;margin-left:6px}
+.sosyalmedya a.facebook,.sosyalmedya a.youtube,.sosyalmedya a.twitter {background: #e7b3a3; margin-right: 5px; font: bold 15px Trebuchet MS; color: #fff; padding: 5px 10px 5px 10px}
+.sosyalmedya a.facebook:hover {background: #395fae}
+.sosyalmedya a.twitter:hover {background: #2286cd}
+.sosyalmedya a.youtube:hover {background: #cd2222}
+/* Geri Bildirim */
+#karart {display: none; background-color:#000; position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: 9998;opacity:0.7}
